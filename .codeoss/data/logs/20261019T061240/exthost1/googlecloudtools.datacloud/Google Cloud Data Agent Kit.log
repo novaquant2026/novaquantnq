@@ -1,0 +1,123 @@
+2026-10-19 06:13:47.415 [info] [OnboardingStatus] Updating context key 'gDataCloud.alreadyOnboarded' to false
+2026-10-19 06:13:47.415 [info] Getting gcloud config internal...
+2026-10-19 06:13:47.415 [info] Checking for gcloud binary path...
+2026-10-19 06:13:47.415 [info] Executing: which gcloud
+2026-10-19 06:13:47.415 [info] Getting gcloud config internal...
+2026-10-19 06:13:47.415 [info] Checking for gcloud binary path...
+2026-10-19 06:13:47.415 [info] Executing: which gcloud
+2026-10-19 06:13:47.415 [info] Activating bigquery
+2026-10-19 06:13:47.415 [info] ConversationalAnalyticsPlugin activated
+2026-10-19 06:13:47.415 [info] ConversationalAnalyticsPlugin: activate finished
+2026-10-19 06:13:47.415 [info] Activating Databases
+2026-10-19 06:13:47.415 [info] Activating Catalog Feature
+2026-10-19 06:13:47.415 [info] Registering Dataplex Project adapter unconditionally.
+2026-10-19 06:13:47.415 [info] Bigtable adapters registered.
+2026-10-19 06:13:47.415 [info] Activating dataplex universal catalog
+2026-10-19 06:13:47.415 [info] Activating dataproc
+2026-10-19 06:13:47.415 [info] Activating spark resource tree
+2026-10-19 06:13:47.415 [info] SparkMonitorPlugin: Activating...
+2026-10-19 06:13:47.415 [info] SparkMonitorPlugin: State change - experiment: true, setting: true, overall: true
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.289Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.289Z] Profile antigravity-ide is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.289Z] Profile antigravity is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.289Z] Profile jetski is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.289Z] Profile cursor is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.289Z] Profile copilot is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.289Z] Profile gemini-code-assist is active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] Profile antigravity-ide is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] Profile antigravity is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] Profile jetski is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] Profile cursor is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] Profile copilot is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] Profile gemini-code-assist is active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.290Z] Activating Agent Skill Installer
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile antigravity-ide is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile antigravity is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile jetski is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile cursor is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile copilot is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile gemini-code-assist is active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile antigravity-ide is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile antigravity is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile jetski is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile cursor is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile copilot is NOT active
+2026-10-19 06:13:47.415 [info] [2026-10-19T06:13:42.300Z] Profile gemini-code-assist is active
+2026-10-19 06:13:47.415 [info] [OnboardingPlugin] Cloud Code extension or Cloud Shell/Workstations detected. Skipping automatic onboarding.
+2026-10-19 06:13:47.415 [info] Executing: gcloud config config-helper --format json
+2026-10-19 06:13:47.415 [info] Executing: gcloud config config-helper --format json
+2026-10-19 06:13:47.415 [info] MCP config plugin: MCP config key: mcpServers
+2026-10-19 06:13:47.415 [info] Installed static notebooks and visualization MCP servers configuration in /home/piyumanjaleeoshi/.gemini/settings.json
+2026-10-19 06:13:47.415 [info] MCP config plugin: ideType: 6
+2026-10-19 06:13:47.415 [info] MCP config plugin: MCP config key: mcpServers
+2026-10-19 06:13:47.415 [info] Applying local runtime experiment overrides: [{"name":"DatacloudDataplex__enable_bigtable_adapter","boolValue":true}]
+2026-10-19 06:13:47.415 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-notebooks-codeossforcloudshell.sock
+2026-10-19 06:13:47.415 [info] [MCP Registry] Server 'notebooks' listening on IPC socket: /tmp/datacloud-mcp-notebooks-codeossforcloudshell.sock
+2026-10-19 06:13:47.415 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-visualization-codeossforcloudshell.sock
+2026-10-19 06:13:47.415 [info] [MCP Registry] Server 'visualization' listening on IPC socket: /tmp/datacloud-mcp-visualization-codeossforcloudshell.sock
+2026-10-19 06:13:47.415 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-dataAgentKit-codeossforcloudshell.sock
+2026-10-19 06:13:47.415 [info] [MCP Registry] Server 'dataAgentKit' listening on IPC socket: /tmp/datacloud-mcp-dataAgentKit-codeossforcloudshell.sock
+2026-10-19 06:13:47.725 [info] SparkMonitorPlugin: Wrote filter config file with value: true
+2026-10-19 06:13:47.966 [info] [2026-10-19T06:13:47.965Z] Checking skills for Gemini Code Assist in /home/piyumanjaleeoshi/.gemini/skills. Force=false
+2026-10-19 06:13:47.967 [info] [2026-10-19T06:13:47.967Z] No previous manifest found or it was invalid.
+2026-10-19 06:13:47.969 [info] [2026-10-19T06:13:47.969Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills
+2026-10-19 06:13:47.981 [info] [2026-10-19T06:13:47.981Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/accidental-data-loss-prevention
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/bigquery-data-transfer-service
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/bigquery-sql
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/building-data-apps
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/data-autocleaning
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/dataform-bigquery
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/dbt-bigquery
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/discovering-gcp-data-assets
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/enforcing-resource-attribution
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-dataflow
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-data-pipelines
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-orchestration
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-spark
+2026-10-19 06:13:47.982 [info] [2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-resource-provisioning
+2026-10-19 06:13:47.984 [info] [2026-10-19T06:13:47.984Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-spark-troubleshooting
+2026-10-19 06:13:47.984 [info] [2026-10-19T06:13:47.984Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/google-cloud-auth-verification
+2026-10-19 06:13:47.984 [info] [2026-10-19T06:13:47.984Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/managing-python-dependencies
+2026-10-19 06:13:47.985 [info] [2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/ml-best-practices
+2026-10-19 06:13:47.985 [info] [2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/notebook-guidance
+2026-10-19 06:13:47.985 [info] [2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/schema-mapping
+2026-10-19 06:13:47.985 [info] [2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/skill-repair
+2026-10-19 06:13:48.030 [info] [2026-10-19T06:13:48.030Z] Copied skill accidental-data-loss-prevention to /home/piyumanjaleeoshi/.gemini/skills/accidental-data-loss-prevention
+2026-10-19 06:13:48.031 [info] [2026-10-19T06:13:48.031Z] Copied skill discovering-gcp-data-assets to /home/piyumanjaleeoshi/.gemini/skills/discovering-gcp-data-assets
+2026-10-19 06:13:48.034 [info] [2026-10-19T06:13:48.034Z] Copied skill dataform-bigquery to /home/piyumanjaleeoshi/.gemini/skills/dataform-bigquery
+2026-10-19 06:13:48.034 [info] [2026-10-19T06:13:48.034Z] Copied skill enforcing-resource-attribution to /home/piyumanjaleeoshi/.gemini/skills/enforcing-resource-attribution
+2026-10-19 06:13:48.035 [info] [2026-10-19T06:13:48.035Z] Copied skill managing-python-dependencies to /home/piyumanjaleeoshi/.gemini/skills/managing-python-dependencies
+2026-10-19 06:13:48.037 [info] [2026-10-19T06:13:48.037Z] Copied skill ml-best-practices to /home/piyumanjaleeoshi/.gemini/skills/ml-best-practices
+2026-10-19 06:13:48.039 [info] [2026-10-19T06:13:48.039Z] Copied skill notebook-guidance to /home/piyumanjaleeoshi/.gemini/skills/notebook-guidance
+2026-10-19 06:13:48.039 [info] [2026-10-19T06:13:48.039Z] Copied skill schema-mapping to /home/piyumanjaleeoshi/.gemini/skills/schema-mapping
+2026-10-19 06:13:48.040 [info] [2026-10-19T06:13:48.039Z] Copied skill skill-repair to /home/piyumanjaleeoshi/.gemini/skills/skill-repair
+2026-10-19 06:13:48.042 [info] [2026-10-19T06:13:48.042Z] Copied skill bigquery-sql to /home/piyumanjaleeoshi/.gemini/skills/bigquery-sql
+2026-10-19 06:13:48.043 [info] [2026-10-19T06:13:48.043Z] Copied skill google-cloud-auth-verification to /home/piyumanjaleeoshi/.gemini/skills/google-cloud-auth-verification
+2026-10-19 06:13:48.045 [info] [2026-10-19T06:13:48.045Z] Copied skill gcp-data-pipelines to /home/piyumanjaleeoshi/.gemini/skills/gcp-data-pipelines
+2026-10-19 06:13:48.046 [info] [2026-10-19T06:13:48.046Z] Copied skill dbt-bigquery to /home/piyumanjaleeoshi/.gemini/skills/dbt-bigquery
+2026-10-19 06:13:48.056 [info] [2026-10-19T06:13:48.056Z] Copied skill bigquery-data-transfer-service to /home/piyumanjaleeoshi/.gemini/skills/bigquery-data-transfer-service
+2026-10-19 06:13:48.057 [info] [2026-10-19T06:13:48.057Z] Copied skill data-autocleaning to /home/piyumanjaleeoshi/.gemini/skills/data-autocleaning
+2026-10-19 06:13:48.060 [info] [2026-10-19T06:13:48.060Z] Copied skill gcp-pipeline-resource-provisioning to /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-resource-provisioning
+2026-10-19 06:13:48.064 [info] [2026-10-19T06:13:48.064Z] Copied skill gcp-spark to /home/piyumanjaleeoshi/.gemini/skills/gcp-spark
+2026-10-19 06:13:48.066 [info] [2026-10-19T06:13:48.066Z] Copied skill gcp-spark-troubleshooting to /home/piyumanjaleeoshi/.gemini/skills/gcp-spark-troubleshooting
+2026-10-19 06:13:48.067 [info] [2026-10-19T06:13:48.067Z] Copied skill building-data-apps to /home/piyumanjaleeoshi/.gemini/skills/building-data-apps
+2026-10-19 06:13:48.068 [info] [2026-10-19T06:13:48.068Z] Copied skill gcp-dataflow to /home/piyumanjaleeoshi/.gemini/skills/gcp-dataflow
+2026-10-19 06:13:48.068 [info] [2026-10-19T06:13:48.068Z] Copied skill gcp-pipeline-orchestration to /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-orchestration
+2026-10-19 06:13:48.069 [info] [2026-10-19T06:13:48.069Z] Finished copying skills to /home/piyumanjaleeoshi/.gemini/skills. Updated 21 skills.
+2026-10-19 06:13:48.070 [info] [2026-10-19T06:13:48.070Z] Installation completed. Manifest updated.
+2026-10-19 06:13:48.071 [info] [2026-10-19T06:13:48.071Z] Syncing telemetry hooks for gemini-code-assist. Telemetry enabled: true
+2026-10-19 06:13:48.076 [info] [2026-10-19T06:13:48.076Z] Hook plugin for gemini-code-assist installed successfully to /home/piyumanjaleeoshi/.gemini/config/plugins/googlecloudtools.datacloud_telemetry
+2026-10-19 06:14:38.592 [info] Data Product adapters registered.
+2026-10-19 06:14:38.592 [info] SparkMonitorPlugin: State change - experiment: true, setting: true, overall: true
+2026-10-19 06:14:38.592 [info] MCP config plugin: ideType: 6
+2026-10-19 06:14:38.595 [info] MCP config plugin: MCP config key: mcpServers
+2026-10-19 06:14:39.316 [info] SparkMonitorPlugin: Wrote filter config file with value: true
+2026-10-19 07:10:35.061 [info] proactively refreshing access token
+2026-10-19 07:14:38.841 [info] MCP config plugin: ideType: 6
+2026-10-19 07:14:38.886 [info] MCP config plugin: MCP config key: mcpServers
+2026-10-19 07:14:38.958 [info] Applying local runtime experiment overrides: [{"name":"DatacloudDataplex__enable_bigtable_adapter","boolValue":true}]
+2026-10-19 07:14:39.263 [info] Applying local runtime experiment overrides: [{"name":"DatacloudDataplex__enable_bigtable_adapter","boolValue":true}]
+2026-10-19 08:09:28.619 [info] proactively refreshing access token

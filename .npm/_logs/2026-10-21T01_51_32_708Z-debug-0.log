@@ -1,0 +1,21 @@
+0 verbose cli /usr/local/nvm/versions/node/v24.21.0/bin/node /usr/local/nvm/versions/node/v24.21.0/bin/npm
+1 info using npm@12.2.0
+2 info using node@v24.21.0
+3 silly config load:file:/usr/local/nvm/versions/node/v24.21.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/piyumanjaleeoshi/novaquant/.npmrc
+5 silly config load:file:/home/piyumanjaleeoshi/.npmrc
+6 silly config load:file:/usr/local/nvm/versions/node/v24.21.0/etc/npmrc
+7 verbose title npm run lint
+8 verbose argv "run" "lint"
+9 verbose logfile logs-max:10 dir:/home/piyumanjaleeoshi/.npm/_logs/2026-10-21T01_51_32_708Z-
+10 verbose logfile /home/piyumanjaleeoshi/.npm/_logs/2026-10-21T01_51_32_708Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 notice run novaquant-ai-trading-bot@1.0.0 lint
+14 notice run tsc --noEmit
+15 verbose cwd /home/piyumanjaleeoshi/novaquant
+16 verbose os Linux 6.6.157+
+17 verbose node v24.21.0
+18 verbose npm  v12.2.0
+19 verbose exit 0
+20 info ok

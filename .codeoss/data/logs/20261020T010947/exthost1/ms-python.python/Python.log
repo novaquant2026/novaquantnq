@@ -1,0 +1,32 @@
+2026-10-20 01:10:27.093 [warning] Dir "/home/piyumanjaleeoshi/.pixi/envs" is not watchable (directory does not exist)
+2026-10-20 01:10:27.093 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-10-20 01:10:27.430 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-10-20 01:10:28.546 [info] Starting Environment refresh
+2026-10-20 01:10:28.546 [info] Searching for interpreters in posix paths locator
+2026-10-20 01:10:28.584 [info] Searching for pyenv environments
+2026-10-20 01:10:28.584 [info] Searching for conda environments
+2026-10-20 01:10:28.585 [info] Searching for global virtual environments
+2026-10-20 01:10:28.585 [info] Searching for custom virtual environments
+2026-10-20 01:10:28.603 [info] > conda info --json
+2026-10-20 01:10:28.620 [info] > hatch env show --json
+2026-10-20 01:10:28.620 [info] cwd: .
+2026-10-20 01:10:28.720 [info] Python interpreter path: /usr/bin/python
+2026-10-20 01:10:28.728 [info] pyenv is not installed
+2026-10-20 01:10:28.728 [info] Finished searching for pyenv environments: 181 milliseconds
+2026-10-20 01:10:28.730 [info] Finished searching for custom virtual envs: 180 milliseconds
+2026-10-20 01:10:28.825 [info] Finished searching for global virtual envs: 276 milliseconds
+2026-10-20 01:10:28.944 [info] Found: /bin/python --> /bin/python3.12
+2026-10-20 01:10:28.953 [info] Found: /bin/python3 --> /bin/python3.12
+2026-10-20 01:10:28.955 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-10-20 01:10:29.030 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-10-20 01:10:29.037 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-10-20 01:10:29.038 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-10-20 01:10:29.190 [info] Finished searching for interpreters in posix paths locator: 624 milliseconds
+2026-10-20 01:10:29.190 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-10-20 01:10:29.198 [info] Environments refresh paths discovered (event): 660 milliseconds
+2026-10-20 01:10:29.204 [info] Environments refresh paths discovered: 666 milliseconds
+2026-10-20 01:10:29.428 [info] Environments refresh finished (event): 890 milliseconds
+2026-10-20 01:10:29.443 [info] Environment refresh took 906 milliseconds
+2026-10-20 01:10:30.298 [info] > pyenv which python
+2026-10-20 01:10:30.298 [info] cwd: .
+2026-10-20 01:10:37.681 [info] Starting Jedi language server for piyumanjaleeoshi.

@@ -1,0 +1,64 @@
+[2026-10-19T06:13:42.290Z] Activating Agent Skill Installer
+[2026-10-19T06:13:42.300Z] appName: Code OSS for Cloud Shell, ideType: 6
+[2026-10-19T06:13:42.300Z] Profile antigravity-ide is NOT active
+[2026-10-19T06:13:42.300Z] Profile antigravity is NOT active
+[2026-10-19T06:13:42.300Z] Profile jetski is NOT active
+[2026-10-19T06:13:42.300Z] Profile cursor is NOT active
+[2026-10-19T06:13:42.300Z] Profile copilot is NOT active
+[2026-10-19T06:13:42.300Z] Profile gemini-code-assist is active
+[2026-10-19T06:13:42.300Z] appName: Code OSS for Cloud Shell, ideType: 6
+[2026-10-19T06:13:42.300Z] Profile antigravity-ide is NOT active
+[2026-10-19T06:13:42.300Z] Profile antigravity is NOT active
+[2026-10-19T06:13:42.300Z] Profile jetski is NOT active
+[2026-10-19T06:13:42.300Z] Profile cursor is NOT active
+[2026-10-19T06:13:42.300Z] Profile copilot is NOT active
+[2026-10-19T06:13:42.300Z] Profile gemini-code-assist is active
+[2026-10-19T06:13:47.965Z] Checking skills for Gemini Code Assist in /home/piyumanjaleeoshi/.gemini/skills. Force=false
+[2026-10-19T06:13:47.967Z] No previous manifest found or it was invalid.
+[2026-10-19T06:13:47.969Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills
+[2026-10-19T06:13:47.981Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/accidental-data-loss-prevention
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/bigquery-data-transfer-service
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/bigquery-sql
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/building-data-apps
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/data-autocleaning
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/dataform-bigquery
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/dbt-bigquery
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/discovering-gcp-data-assets
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/enforcing-resource-attribution
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-dataflow
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-data-pipelines
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-orchestration
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-spark
+[2026-10-19T06:13:47.982Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-10-19T06:13:47.984Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/gcp-spark-troubleshooting
+[2026-10-19T06:13:47.984Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/google-cloud-auth-verification
+[2026-10-19T06:13:47.984Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/managing-python-dependencies
+[2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/ml-best-practices
+[2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/notebook-guidance
+[2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/schema-mapping
+[2026-10-19T06:13:47.985Z] Ensured destination directory exists: /home/piyumanjaleeoshi/.gemini/skills/skill-repair
+[2026-10-19T06:13:48.030Z] Copied skill accidental-data-loss-prevention to /home/piyumanjaleeoshi/.gemini/skills/accidental-data-loss-prevention
+[2026-10-19T06:13:48.031Z] Copied skill discovering-gcp-data-assets to /home/piyumanjaleeoshi/.gemini/skills/discovering-gcp-data-assets
+[2026-10-19T06:13:48.034Z] Copied skill dataform-bigquery to /home/piyumanjaleeoshi/.gemini/skills/dataform-bigquery
+[2026-10-19T06:13:48.034Z] Copied skill enforcing-resource-attribution to /home/piyumanjaleeoshi/.gemini/skills/enforcing-resource-attribution
+[2026-10-19T06:13:48.035Z] Copied skill managing-python-dependencies to /home/piyumanjaleeoshi/.gemini/skills/managing-python-dependencies
+[2026-10-19T06:13:48.037Z] Copied skill ml-best-practices to /home/piyumanjaleeoshi/.gemini/skills/ml-best-practices
+[2026-10-19T06:13:48.039Z] Copied skill notebook-guidance to /home/piyumanjaleeoshi/.gemini/skills/notebook-guidance
+[2026-10-19T06:13:48.039Z] Copied skill schema-mapping to /home/piyumanjaleeoshi/.gemini/skills/schema-mapping
+[2026-10-19T06:13:48.039Z] Copied skill skill-repair to /home/piyumanjaleeoshi/.gemini/skills/skill-repair
+[2026-10-19T06:13:48.042Z] Copied skill bigquery-sql to /home/piyumanjaleeoshi/.gemini/skills/bigquery-sql
+[2026-10-19T06:13:48.043Z] Copied skill google-cloud-auth-verification to /home/piyumanjaleeoshi/.gemini/skills/google-cloud-auth-verification
+[2026-10-19T06:13:48.045Z] Copied skill gcp-data-pipelines to /home/piyumanjaleeoshi/.gemini/skills/gcp-data-pipelines
+[2026-10-19T06:13:48.046Z] Copied skill dbt-bigquery to /home/piyumanjaleeoshi/.gemini/skills/dbt-bigquery
+[2026-10-19T06:13:48.056Z] Copied skill bigquery-data-transfer-service to /home/piyumanjaleeoshi/.gemini/skills/bigquery-data-transfer-service
+[2026-10-19T06:13:48.057Z] Copied skill data-autocleaning to /home/piyumanjaleeoshi/.gemini/skills/data-autocleaning
+[2026-10-19T06:13:48.060Z] Copied skill gcp-pipeline-resource-provisioning to /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-10-19T06:13:48.064Z] Copied skill gcp-spark to /home/piyumanjaleeoshi/.gemini/skills/gcp-spark
+[2026-10-19T06:13:48.066Z] Copied skill gcp-spark-troubleshooting to /home/piyumanjaleeoshi/.gemini/skills/gcp-spark-troubleshooting
+[2026-10-19T06:13:48.067Z] Copied skill building-data-apps to /home/piyumanjaleeoshi/.gemini/skills/building-data-apps
+[2026-10-19T06:13:48.068Z] Copied skill gcp-dataflow to /home/piyumanjaleeoshi/.gemini/skills/gcp-dataflow
+[2026-10-19T06:13:48.068Z] Copied skill gcp-pipeline-orchestration to /home/piyumanjaleeoshi/.gemini/skills/gcp-pipeline-orchestration
+[2026-10-19T06:13:48.069Z] Finished copying skills to /home/piyumanjaleeoshi/.gemini/skills. Updated 21 skills.
+[2026-10-19T06:13:48.070Z] Installation completed. Manifest updated.
+[2026-10-19T06:13:48.071Z] Syncing telemetry hooks for gemini-code-assist. Telemetry enabled: true
+[2026-10-19T06:13:48.076Z] Hook plugin for gemini-code-assist installed successfully to /home/piyumanjaleeoshi/.gemini/config/plugins/googlecloudtools.datacloud_telemetry

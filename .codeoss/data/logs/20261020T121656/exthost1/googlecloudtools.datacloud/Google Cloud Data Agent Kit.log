@@ -1,0 +1,71 @@
+2026-10-20 12:17:53.529 [info] [OnboardingStatus] Updating context key 'gDataCloud.alreadyOnboarded' to true
+2026-10-20 12:17:53.529 [info] Getting gcloud config internal...
+2026-10-20 12:17:53.529 [info] Checking for gcloud binary path...
+2026-10-20 12:17:53.529 [info] Executing: which gcloud
+2026-10-20 12:17:53.529 [info] Getting gcloud config internal...
+2026-10-20 12:17:53.529 [info] Checking for gcloud binary path...
+2026-10-20 12:17:53.529 [info] Executing: which gcloud
+2026-10-20 12:17:53.529 [info] Activating bigquery
+2026-10-20 12:17:53.529 [info] ConversationalAnalyticsPlugin activated
+2026-10-20 12:17:53.529 [info] ConversationalAnalyticsPlugin: activate finished
+2026-10-20 12:17:53.529 [info] Activating Databases
+2026-10-20 12:17:53.529 [info] Activating Catalog Feature
+2026-10-20 12:17:53.529 [info] Registering Dataplex Project adapter unconditionally.
+2026-10-20 12:17:53.529 [info] Bigtable adapters registered.
+2026-10-20 12:17:53.529 [info] Activating dataplex universal catalog
+2026-10-20 12:17:53.529 [info] Activating dataproc
+2026-10-20 12:17:53.529 [info] Activating spark resource tree
+2026-10-20 12:17:53.529 [info] SparkMonitorPlugin: Activating...
+2026-10-20 12:17:53.529 [info] SparkMonitorPlugin: State change - experiment: true, setting: true, overall: true
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.232Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.232Z] Profile antigravity-ide is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.232Z] Profile antigravity is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.232Z] Profile jetski is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.232Z] Profile cursor is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.232Z] Profile copilot is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.232Z] Profile gemini-code-assist is active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] Profile antigravity-ide is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] Profile antigravity is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] Profile jetski is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] Profile cursor is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] Profile copilot is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] Profile gemini-code-assist is active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.233Z] Activating Agent Skill Installer
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile antigravity-ide is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile antigravity is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile jetski is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile cursor is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile copilot is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile gemini-code-assist is active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile antigravity-ide is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile antigravity is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile jetski is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile cursor is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile copilot is NOT active
+2026-10-20 12:17:53.529 [info] [2026-10-20T12:17:43.244Z] Profile gemini-code-assist is active
+2026-10-20 12:17:53.529 [info] Executing: gcloud config config-helper --format json
+2026-10-20 12:17:53.529 [info] Executing: gcloud config config-helper --format json
+2026-10-20 12:17:53.529 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-notebooks-codeossforcloudshell.sock
+2026-10-20 12:17:53.529 [info] [MCP Registry] Server 'notebooks' listening on IPC socket: /tmp/datacloud-mcp-notebooks-codeossforcloudshell.sock
+2026-10-20 12:17:53.529 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-visualization-codeossforcloudshell.sock
+2026-10-20 12:17:53.529 [info] [MCP Registry] Server 'visualization' listening on IPC socket: /tmp/datacloud-mcp-visualization-codeossforcloudshell.sock
+2026-10-20 12:17:53.529 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-dataAgentKit-codeossforcloudshell.sock
+2026-10-20 12:17:53.529 [info] [MCP Registry] Server 'dataAgentKit' listening on IPC socket: /tmp/datacloud-mcp-dataAgentKit-codeossforcloudshell.sock
+2026-10-20 12:17:53.529 [info] MCP config plugin: MCP config key: mcpServers
+2026-10-20 12:17:53.529 [info] MCP config plugin configureMcpServers called with servers: [{"id":"bigquery","selected":false,"mode":"remote"},{"id":"spanner","selected":false,"mode":"remote"},{"id":"alloydb","selected":false,"mode":"remote"},{"id":"cloud-sql","selected":false,"mode":"remote"},{"id":"knowledge_catalog","selected":false,"mode":"remote"},{"id":"dataproc","selected":false,"mode":"remote"},{"id":"gcs","selected":false,"mode":"remote"},{"id":"bigtable","selected":false,"mode":"remote"}]
+2026-10-20 12:17:53.529 [info] MCP config plugin: ideType: 6
+2026-10-20 12:17:53.529 [info] Deactivating bigquery
+2026-10-20 12:17:53.529 [info] Deactivating GCS
+2026-10-20 12:17:53.529 [info] Deactivating Databases
+2026-10-20 12:17:53.529 [info] Deactivating Catalog Feature
+2026-10-20 12:17:53.529 [info] Deactivating dataproc
+2026-10-20 12:17:53.529 [info] SparkMonitorPlugin: Deactivating...
+2026-10-20 12:17:53.529 [info] Deactivating settings
+2026-10-20 12:17:53.529 [info] MCP config plugin: MCP config key: mcpServers
+2026-10-20 12:17:53.529 [info] Installed MCP servers configuration in /home/piyumanjaleeoshi/.gemini/settings.json
+2026-10-20 12:17:53.529 [info] MCP config plugin: ideType: 6
+2026-10-20 12:17:53.530 [info] SparkMonitorPlugin: Wrote filter config file with value: true
+2026-10-20 12:17:53.539 [info] MCP config plugin: MCP config key: mcpServers

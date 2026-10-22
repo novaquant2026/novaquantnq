@@ -1,0 +1,3 @@
+2026-10-19 06:13:29.914 [info] Log level: Info
+2026-10-19 06:13:32.916 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-10-19 06:17:46.409 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for novaquant2026/novaquant: Error: No GitHub authentication session available.

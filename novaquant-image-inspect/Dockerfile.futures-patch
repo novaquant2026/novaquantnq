@@ -1,0 +1,2 @@
+FROM asia-southeast1-docker.pkg.dev/silken-will-kthgf/novaquant/novaquant-ai-trading-bot:binance-permission-fix
+COPY app/dist/assets/index-DZ9FmV0y.js /app/dist/assets/index-DZ9FmV0y.js
