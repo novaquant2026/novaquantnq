@@ -196,27 +196,23 @@ var BinanceExchangeAdapter = class {
   }
   async connect() { return "CONNECTED"; }
   async testConnection() {
-    try {
-      // Query actual Binance API restrictions to check withdrawal permission
-      const restrictions = await this.makeSignedRequest('/sapi/v1/account/apiRestrictions', {}, 'GET');
-      const canWithdraw = Boolean(restrictions.enableWithdrawings);
-      
-      return { 
-        success: true, 
-        status: "CONNECTED", 
-        exchange: "Binance", 
-        latencyMs: 25, 
-        permissions: { 
-          read: true, 
-          spotTrading: Boolean(restrictions.enableSpotAndMarginTrading || true), 
-          futuresTrading: Boolean(restrictions.enableFutures || true), 
-          withdrawals: canWithdraw 
-        } 
-      };
-    } catch (err) {
-      // Fallback safe permissions if restricted endpoint fails
-      return { success: true, status: "CONNECTED", exchange: "Binance", latencyMs: 25, permissions: SAFE_PERMISSIONS };
-    }
+    const started = Date.now();
+    // Fail closed: errors propagate so the caller rejects the key
+    const r = await this.makeSignedRequest("/sapi/v1/account/apiRestrictions", {}, "GET");
+    return {
+      success: true,
+      status: "CONNECTED",
+      exchange: "Binance",
+      latencyMs: Date.now() - started,
+      permissions: {
+        read: Boolean(r.enableReading),
+        spotTrading: Boolean(r.enableSpotAndMarginTrading),
+        futuresTrading: Boolean(r.enableFutures),
+        withdrawals: Boolean(r.enableWithdrawals),
+        internalTransfer: Boolean(r.enableInternalTransfer),
+        universalTransfer: Boolean(r.permitsUniversalTransfer)
+      }
+    };
   }
 };
 
@@ -252,7 +248,9 @@ var tradingMode = "LIVE";
 var botStatus = initialDbState.status;
 var activeTradingProcessesRunning = initialDbState.activeProcessesRunning;
 
-// FIXED EXCHANGE CONNECTION ENDPOINT WITH WITHDRAWAL REJECTION & UNIFIED PERMISSIONS
+// Last verified connection state (in-memory)
+var lastConnection = null;
+
 app.post("/api/exchanges/connect", async (req, res) => {
   try {
     const { exchange, apiKey, secretKey, isDemoMode } = req.body;
@@ -264,35 +262,44 @@ app.post("/api/exchanges/connect", async (req, res) => {
     }
 
     const adapter = new BinanceExchangeAdapter(cleanApiKey, cleanSecretKey, isDemoMode);
-    const testResult = await adapter.testConnection();
-
-    // Security check: Block keys with withdrawals enabled (checking both plural and singular keys)
-    if (testResult.permissions?.withdrawals || testResult.permissions?.withdrawal) {
+    let testResult;
+    try {
+      testResult = await adapter.testConnection();
+    } catch (err) {
+      lastConnection = null;
       return res.status(400).json({
         success: false,
-        error: "Security Rejection: API key has withdrawal permission enabled. Please disable withdrawals on Binance before connecting."
+        error: `Could not verify API key permissions: ${err.message}. Check the key, secret and IP whitelist.`
       });
     }
 
+    const p = testResult.permissions;
+    if (p.withdrawals || p.internalTransfer || p.universalTransfer) {
+      lastConnection = null;
+      return res.status(400).json({
+        success: false,
+        error: "Security Rejection: API key has withdrawal/transfer permission enabled. Disable withdrawals and transfers on Binance before connecting.",
+        permissions: p
+      });
+    }
+
+    lastConnection = { exchange: testResult.exchange, permissions: p, connectedAt: Date.now() };
     res.json({
       success: true,
       message: "Exchange connected successfully with secure permissions.",
       exchange: testResult.exchange,
-      permissions: SAFE_PERMISSIONS
+      permissions: p
     });
   } catch (error) {
     res.status(400).json({ success: false, error: error.message || "Failed to connect exchange." });
   }
 });
 
-// FIXED CONNECTION STATUS ENDPOINT RETURNING SAFE_PERMISSIONS
 app.get("/api/exchanges/status", (req, res) => {
-  res.json({
-    connected: true,
-    exchange: "Binance",
-    permissions: SAFE_PERMISSIONS,
-    timestamp: Date.now()
-  });
+  if (!lastConnection) {
+    return res.json({ connected: false, timestamp: Date.now() });
+  }
+  res.json({ connected: true, ...lastConnection, timestamp: Date.now() });
 });
 
 app.get("/api/health", (req, res) => {
