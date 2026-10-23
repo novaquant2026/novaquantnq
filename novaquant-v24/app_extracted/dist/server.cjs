@@ -6588,17 +6588,11 @@ app.post("/api/auth/login", async (req, res) => {
       return res.status(400).json({ error: "Email is required" });
     }
     const cleanEmail = String(email).trim().toLowerCase();
-    if (cleanEmail === "novaquant2026@gmail.com") {
-      if (password && password !== "manager123") {
-        return res.status(401).json({ error: "Invalid password. Expected: manager123" });
-      }
-    }
-    const isManager = cleanEmail === "novaquant2026@gmail.com";
-    const finalUid = uid || (isManager ? "usr_novaquant" : `usr_${cleanEmail.split("@")[0].replace(/[^a-zA-Z0-9]/g, "_")}`);
+    const finalUid = uid || `usr_${cleanEmail.split("@")[0].replace(/[^a-zA-Z0-9]/g, "_")}`;
     const user = {
       id: finalUid,
-      email: isManager ? "novaquant2026@gmail.com" : email,
-      name: name || (isManager ? "NovaQuant Manager" : email.split("@")[0]),
+      email: email,
+      name: name || email.split("@")[0],
       provider: "password"
     };
     await syncUserToDb(user);
