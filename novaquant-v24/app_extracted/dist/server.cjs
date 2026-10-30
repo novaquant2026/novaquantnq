@@ -7901,9 +7901,11 @@ async function startServer() {
       res.sendFile(import_path3.default.join(distPath, "index.html"));
     });
   }
-  await reconcileLivePositionsOnStartup();
   server.listen(PORT, "0.0.0.0", () => {
     console.log(`NovaQuant AI Trading Engine running on http://0.0.0.0:${PORT} (REST & WebSocket /ws active)`);
+    reconcileLivePositionsOnStartup().catch((err) => {
+      console.error("[LIVE STARTUP RECOVERY] Failed:", err?.message || err);
+    });
   });
 }
 startServer();
